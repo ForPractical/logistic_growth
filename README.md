@@ -16,7 +16,7 @@ when t is small and K (carrying capacity) is much bigger than the population siz
 when t is large enough so that the population size reaches the carrying capacity
 In the "plot_data_and_model.R" file, I fit my data in the logistic model N = (N0*K*exp(r*t))/(K-N0+N0*exp(r*t)) and make a scatter plot between N and t.
 
-Results: my data fit quite well in the logistic growth, where I set N0 (initial population)=879, r=0.01, K=60000000000 (6*10^10) N0 and K are found in the file "experiment.csv". r (population growth rate) is the slope in my linear model 1 when t is small. At the beginning when population size is much smaller than carrying capacity, the relationship between N and t is almost linear, and the slope is about the population growth rate.
+Results: my data fit quite well in the logistic growth, where I set N0 (initial population)=879, r=0.01, K=60000000000 (6*10^10) N0 and K are found in the file "experiment.csv". N0 is the population size when time=0, which is 879. K (carrying capacity) is when time is long enough, and the population reaches its maximum size that the environment can support sustainably over time. r (population growth rate) is the slope in my linear model 1 when t is small. At the beginning when population size is much smaller than carrying capacity, the relationship between N and t is almost linear, and the slope is about the population growth rate.
 
 Q2
 
