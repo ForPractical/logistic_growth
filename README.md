@@ -8,7 +8,7 @@ Main files used in the study: experiment.csv, fit_linear_model.R, plot_data.R, p
 
 The csv file I used is "experiment.csv".
 
-In the "plot_data.R" file, I plot the relationship between t (time) and N (population size) in a scatter plot.
+In the "plot_data.R" file, I plot the relationship between t (time) and N (population size) and the relationship between t (time) and log10N (the log10 form of population size) in a scatter plot.
 
 In the "fit_linear_model.R" file, I made two linear models under two different conditions:
 1) when t is small and K (carrying capacity) is much bigger than the population size
@@ -28,5 +28,5 @@ Under logistic growth N = `(N0*K*exp(r*t))/(K-N0+N0*exp(r*t)) where K=6*10^10`, 
 
 Q3
 
-Here is my picture to compare the exponential growth and logistic growth of population size:
+The script is stored in plot_data_and_model.R. Here is my picture to compare the exponential growth and logistic growth of population size:
 ![Exponential Logistic](https://github.com/user-attachments/assets/d5d4a092-a40e-4317-912f-a5ded3deeefb)
